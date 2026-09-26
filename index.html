@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Patryk Gorzelak</h1>
+            <p>Uczeń Zsti na kierunku Technik informatyk</p>
+        </header>
+        <main>
+            <section id="aboutme">
+                <h2>O mnie</h2>
+                <p>Jestem uczniem zsti na kierunku technik informatyk, poza technologią interesuje się grafiką komputerową oraz literaturą fanatsy</p>
+            </section>
+            <section id="motto">
+                <h2>Motto Życiowe</h2>
+                <blockquote><cite>&bdquo;Sukces to nie klucz do szczęścia. Szczęście to klucz do sukcesu. Jeśli kochasz to, co robisz, odniesiesz sukces.&ldquo;</cite>
+                <p>—<cite>Albert Schweitzer</cite></p></blockquote>
+                
+            </section>
+            <section id="inf03">
+                <h2>Co musze umieć na egzamin INF03</h2>
+                <p>Oto zapisana w czystym, semantycznym HTML-u (jako zagnieżdżona lista) pierwsza część wymagań z zakresu HTML i CSS: HTML</p>
+                <ol>
+                    <li>Projektowanie i tworzenie stron internetowych (HTML & CSS)
+                        <ul>
+                            <li>Semantyka i strunktura HTML5
+                                <ul>
+                                    <li>Znajomość elementów selekcjonujących <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;footer&gt;</code>.</li>
+                                    <li>Tworzenie i formatowanie tekstu: nagłówki (<code>&lt;h1&gt;</code> - <code>&lt;h6&gt;</code>), akapity <code>&lt;p&gt;</code>, pogrubienie (<code>&lt;strong&gt;</code>), kursywy (<code>&lt;en&gt;</code>), cytaty (<code>&lt;blockquote&gt;</code>).</li>
+                                    <li>Tworzenie list: numerowanych (<code>&lt;ol&gt;</code>), wypunktowanych (<code>&lt;ul&gt;</code>) oraz definicji (<code>&lt;dl&gt;</code>).</li>
+                                    <li>Tabele: <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code>, <code>&lt;th&gt;</code>, łączenie komórek (<code>colspan</code>, <code>rowspan</code>).</li>
+                                    <li>Formularze i ich kontrolki: <code>&lt;form&gt;</code>, <code>&lt;input&gt;</code> (typy: <code>text</code>, <code>password</code>, <code>number</code>, <code>radio</code>, <code>checkbox</code>, <code>date</code>, <code>color</code>, <code>range</code>, <code>Submit</code>, <code>reset</code>), <code>&lt;select&gt;</code>, <code>&lt;option&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;label&gt;</code>, <code>&lt;button&gt;</code></li>
+                                    <li>Multimedia i ich odnośnimi (<code>&lt;a&gt;</code>), obrazy (<code>&lt;img&gt;</code>), video (<code>&lt;video&gt;</code>), dźwięk (<code>&lt;audio&gt;</code>).</li>
+                                </ul>
+                            </li>
+                            <li>Stylizowanie za pomocą CSS3:
+                                <ul>
+                                    <li>Sposoby dołączania stylów: zewnętrzne pliki <code>.css</code>, style wewnętrzne <code>&lt;style&gt;</code>, style wpisane inline (<code>style=""</code>).</li>
+                                    <li>Selektory: znaczników, klas (<code>.</code>), identyfikatorów (<code>#</code>), atrybutów, potomków, dzieci.</li>
+                                    <li>Pseudoklasy i pseudoelementy: <code>:hover</code>, <code>:active</code>, <code>:focus</code>, <code>:nth-child()</code>, <code>:first-letter</code>, <code>:first-child</code>, <code>::before</code>, <code>::after</code>.</li>
+                                    <li>Zmienne CSS (<code>:root</code> oraz funkcja <code>var()</code>).</li>
+                                    <li>Model pudełkowy (box Model): <code>margin</code>, <code>padding</code>, <code>border</code>, <code>width</code>, <code>height</code> oraz kasowanie domyślnych marginesów; <code>box-sizing: border-box</code>.</li>
+                                    <li>Układ strony i pozycjonowanie:
+                                        <ul>
+                                            <li>Domyślne typy wyświetlania: <code>display</code> (<code>bloc</code>, <code>inline</code>, <code>inline-block</code>, <code>none</code>).</li>
+                                            <li>Pozycjonowanie: <code>position</code> (<code>static</code>, <code>relative</code>, <code>absolute</code>, <code>fixed</code>, <code>sticky</code>).</li>
+                                            <li>Opływanie i czyszczeni: <code>float</code> (opływanie elementów) oraz <code>clear</code> (kasowanie opływań).</li>
+                                            <li>Flexbox: <code>display: flex</code>, kierunki i wyrównania (<code>flex-direction</code>, <code>justify-content</code>, <code>align-items</code>, <code>flex-wrap</code>), elastyczność elementów (<code>flex-grow</code>, <code>flex-shrink</code>, <code>flex-basis</code>).</li>
+                                            <li>CSS Grid: <code>display: grid</code>, tworzenie siatki (<code>grid-template-columns</code>, <code>grid-template-rows</code>, <code>grid-template-areas</code>), jednostka <code>fr</code>, funkcja <code>repeat()</code>, elastyczne układy (<code>auto-fit</code>, <code>auto-fill</code>, <code>minmax()</code> oraz <code>gap</code>.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Nowoczesne funkcje wartościL płynne skalowanie tekstu i wymiarów za pomocą <code>clamp(MIN, VAL, MAX)</code> oraz funkcje <code>min()</code> i <code>max()</code>.</li>
+                                    <li>Przekształcenia i animacje: transformacje 2D (<code>transform: translate(), rotate(), scale(), skew()</code>), płynne przejścia (<code>transition</code>) oraz kluczowe klatki animacji (<code>@keyframes</code>, <code>animation</code>).</li>
+                                    <li>RWD (Media Queries): <code>@media screen and (max-width: ...) do dostosowania strony do urządzeń mobilnych.</code></li>
+                                </ul>
+                            </li>
+                            <li>Obróbka grafiki na potrzeby stron (GIMP / Photoshop)
+                                <ul>
+                                    <li>Kadrowanie, zmiana rozdzielczości i rozmiaru obrazu.</li>
+                                    <li>Eksport do odpowiednich formatów (<code>.jpg</code>, <code>.png</code>, <code>.gif</code>, <code>webp</code>) z uwzględnieniem kompresji i przezroczystości (kanału alfa).</li>
+                                    <li>Prosty montaż, praca na warstwach, nakładanie filtrów, zmiana jasności/kontrsastu i koloru</li>
+                                    <li>Animacje</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>Krok po kroku do zdania egzaminu INF.03</h2>
+                <table>
+                    <tr>
+                        <th>KROK</th>
+                        <th>ETAP</th>
+                        <th>OPIS DZIAŁAŃ</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Analiza wymagań arkusza</td>
+                        <td>Dokłądne zapoznanie się z treścią zafania egzaminacyjnego oraz dołaczonymi plikami graficznymi i tekstowymi.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Projekt bazy danych (SQL)</td>
+                        <td>Stworzenie bazy danych w MySql/MariaDB, import tabel, napisanie kwerend SQL (SLEECT, INSERT, UPDATE, DELETE).</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Struktóra strony (HTML5)</td>
+                        <td>Napisanie semantycznego kodu HTML (użycie nagłówków, sekcji, list, formularzy, tabel oraz podłączenie skryptów i stylów).</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Stylizacja i układ (CSS3)</td>
+                        <td>Ostylowanie strony wedłóg wytycznych w arkuszu (kolory w HEX/RGB marginesy, czcionki, układy Flexbox/Grid, efekt hover).</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Skrypty po stronie klienta (javascript)</td>
+                        <td>Oprogramowanie interakcji na stronie (pobieranie danych z formularza, walidacja, obsługa zdarzeń, operacje na DOM).</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Skrypty po stronie serwera (PHP)</td>
+                        <td>Napisanie połaczenia z bazą danych (mysql/PDO), wykonanie kwerend oraz wyświetlenie wyników na stronie.</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Obrubka grafiki</td>
+                        <td>Przygotowanie i przeskalowanie plików graficznych w programie GIMP lub Photoshop zgodnie z wymaganiami z treści zadania.</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Testowanie i weryfikacja</td>
+                        <td>Sprawdzenie działania strony w przeglądarce, test skryptów, formularzy oraz poprawności wyświetlania wyników z bazy.</td>
+                    </tr>
+                    <tr>
+                        <td class="first">9</td>
+                        <td>Eksport bazy danych i porządkowanie plików</td>
+                        <td class="last">Wykonanie zrzutu bazy danych (.sql) i zapisanie wszystkich plików w wyznaczonym folderze egzaminacyjnym</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer>
+            &copy; Patryk Gorzelak 2026
+        </footer>
+    </div>
+    
+</body>
+</html>
