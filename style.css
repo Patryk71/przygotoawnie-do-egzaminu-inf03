@@ -132,7 +132,15 @@ footer{
     align-items: center;
     padding: 20px 0px 20px 0px;
 }
-
+a{
+    text-decoration: none;
+}
+a:hover>code{
+    background-color: rgb(61, 78, 61);
+}
+a:visited>code{
+    color:rgb(216, 0, 0);
+}
 @media (max-width: 400px){
     .container{width: 100%;}
 }
